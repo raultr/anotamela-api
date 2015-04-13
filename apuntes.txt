@@ -1,0 +1,24 @@
+iniciamos un proyecto en node:
+	
+	npm init --crea el pckage.json
+
+Carpetas creadas:
+	test
+	test/helper
+
+mocha --pruebas de bdd
+chai -- crear expectativas
+
+Instalacion de mocha:
+	sudo npm instal -g mocha
+Correr pruebas:
+	mocha -- corre las pruebas que existas en el directorio test
+
+instalar chai y guardar la referencia en el package.json:
+   npm install --save-d chai mocha
+
+instalar supertest esta libreria hace una solicitud request al servidor http  y examina los resultados del cuerpo.:
+   npm instal --save-d supertest
+
+instalamos express para poder hacer un pequeño servidor web
+	npm instal --save-d express
